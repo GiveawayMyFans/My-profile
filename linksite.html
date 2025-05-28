@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #101820;
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ccc;
+    }
+    .profile-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .profile-info h2 {
+      margin-bottom: 0.25rem;
+    }
+    .tagline {
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .stats {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .stat-box {
+      flex: 1;
+      background: #f0f0f0;
+      padding: 0.5rem;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .buttons {
+      margin: 1rem 0;
+      display: flex;
+      gap: 1rem;
+    }
+    .buttons button {
+      flex: 1;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .invite {
+      background: #e0e0e0;
+    }
+    .hire {
+      background: #ff007a;
+      color: #fff;
+    }
+    .bio {
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-top: 1rem;
+    }
+    .location {
+      display: flex;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 0.5rem;
+    }
+    .flag {
+      width: 20px;
+      height: 15px;
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>freelancer</h1>
+    <div>
+      <a href="#" style="color:white;margin-right:1rem;">Log In</a>
+      <a href="#" style="color:white;">Sign Up</a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="profile-header">
+      <img src="https://i.imgur.com/E3eXghg.png" alt="Profile" class="profile-img">
+      <div class="profile-info">
+        <h2>Rajuan A. <span style="font-weight: normal; color: #666;">@rajuanahamed</span></h2>
+        <div class="tagline">Web Development | Game Development | Linux</div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat-box">⭐ 0.0</div>
+      <div class="stat-box">💬 0</div>
+      <div class="stat-box">💲 0.0</div>
+      <div class="stat-box">⏳ 0%</div>
+    </div>
+
+    <div class="location">
+      <img src="https://flagcdn.com/w40/bd.png" alt="Bangladesh" class="flag">
+      Bangladesh (8:30 PM)
+    </div>
+
+    <div style="margin-top: 1rem; font-weight: bold;">$5 USD / Hour</div>
+
+    <div class="buttons">
+      <button class="invite">Invite to Bid</button>
+      <button class="hire">Hire Me</button>
+    </div>
+
+    <div class="bio">
+      I'm a passionate and highly skilled programmer and web developer with a deep understanding of modern technologies and a proven track record of delivering high-quality projects. With a strong background in coding and a keen eye for design, I specialize in creating seamless, user-friendly, and visually appealing web experiences. I have extensive expertise in HTML5, CSS3, and JavaScript.
+    </div>
+  </div>
+</body>
+</html>
